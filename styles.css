@@ -1,7 +1,8 @@
-.main {
-    font-family: Tahoma, Helvetica, "Times New Roman", sans-serif;
+html {
+    font-family: Inter, Tahoma, Helvetica, sans-serif;
     font-size: 16px;
     background-color: rgba(230, 196, 174, 0.8);
+    box-sizing: border-box;
 }
 
 .inverted {
@@ -14,20 +15,33 @@
     font-weight: 500;
     text-align: center;
     background-color: white;
+    border-style: double;
+    border-bottom-style: none;
+    border-color: brown;
+    margin-bottom: 0px;
 }
 
 .time-serving {
     font-size: 12px;
-    background-color: white;
+    border-top-style: none;
+    border-bottom-style: double;
+    margin-top: 0px;
 }
 
-/* don't know how to center an image. Googled it but
-I believe these types of things will come up in the
-course later, so I'm leaving this incorrect code for now*/
+/*.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}*/
+
 img {
     height: 500px;
     width: auto;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: hsla(358, 73%, 35%, 0.8);
 }
 
